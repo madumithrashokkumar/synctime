@@ -1,0 +1,50 @@
+/* SyncTime palette: Slate 900/800/700 with Amber 400 active accents. */
+:root{--ink:#F8FAFC;--muted:#94A3B8;--line:#334155;--paper:#0F172A;--white:#1E293B;--green:#FBBF24;--green-bg:rgba(245,158,11,.15);--red:#94A3B8;--red-bg:rgba(148,163,184,.12)}
+body{background:#0F172A;color:#F8FAFC}
+.topbar{border-color:#334155}
+.brand,.top-nav .nav-active,h1{color:#F8FAFC}
+.brand-light,.top-nav a,.intro-copy p,.live-label{color:#94A3B8}
+.brand-mark{border-color:#FBBF24}.brand-mark i,.eyebrow-line{background:#FBBF24}
+.live-dot{background:#FBBF24;box-shadow:0 0 0 3px rgba(245,158,11,.15)}
+.avatar{background:#334155;color:#FBBF24}
+.top-nav .nav-active:after{background:#FBBF24}
+.eyebrow,.section-kicker{color:#94A3B8}
+h1 em{color:#FBBF24}
+.date-control,.planner-card,.city-dialog{background:#1E293B;border-color:#334155;color:#F8FAFC}
+.date-icon{color:#FBBF24}
+.date-control label,.date-control input{color:#F8FAFC}
+.date-control input::-webkit-calendar-picker-indicator{filter:invert(.85)}
+.team-grid .city-card{background:#1E293B;border-color:#334155}
+.team-grid .city-card.is-work{box-shadow:inset 0 0 0 1px rgba(245,158,11,.08)}
+.team-grid .city-card.is-off{border-color:#334155}
+.city-name,.city-time,.overlap-summary strong{color:#F8FAFC!important}
+.city-country,.city-day,.city-time small{color:#94A3B8}
+.is-work .status-pill{background:rgba(245,158,11,.15);color:#FBBF24}
+.is-off .status-pill{background:rgba(148,163,184,.12);color:#94A3B8}
+.remove-city{color:#94A3B8}.remove-city:hover{color:#FBBF24}
+.timeline-block{border-color:#334155}
+.time-display strong{color:#F8FAFC}.time-display>span:nth-child(2),.timeline-legend span,.slider-ticks,.slider-hint{color:#94A3B8}
+.time-zone-label{color:#94A3B8!important}
+.legend-dot.work,.legend-dot.selected{background:#FBBF24}.legend-dot.off{background:#94A3B8}
+.track-zones{background:#334155}
+.slider-track input::-webkit-slider-thumb{border-color:#FBBF24;box-shadow:0 1px 7px #0008}
+.slider-track input::-moz-range-thumb{border-color:#FBBF24}
+.summary-row{background:#1E293B;border-color:#334155}
+.summary-icon{background:rgba(245,158,11,.15);color:#FBBF24}
+.overlap-summary div span{color:#94A3B8}
+.copy-button{background:#FBBF24;color:#0F172A;box-shadow:0 2px 8px rgba(245,158,11,.2);font-weight:700}
+.copy-button:hover{background:#F59E0B}
+.tips{background:#1E293B;border-color:#334155}.tip-icon{background:rgba(245,158,11,.15);color:#FBBF24}.tips span{color:#94A3B8}.tips button{color:#94A3B8}
+footer{color:#94A3B8}.footer-brand{color:#F8FAFC}.footer-brand b{color:#64748B}
+.date-presets button{background:#1E293B;border-color:#334155;color:#94A3B8}
+.date-presets button:hover,.date-presets button.active{border-color:#FBBF24;background:rgba(245,158,11,.15);color:#FBBF24}
+.today-button{background:#334155;color:#FBBF24}
+.add-button{color:#FBBF24;border-color:#334155;background:#1E293B}
+.text-button{color:#94A3B8}
+.city-dialog::backdrop{background:rgba(15,23,42,.82)}
+.city-dialog .section-kicker{color:#94A3B8}
+.icon-button{background:#334155;color:#F8FAFC}
+.search-box{background:#0F172A;border-color:#334155;color:#FBBF24}
+.search-box input{background:transparent;color:#F8FAFC}.search-box input::placeholder{color:#94A3B8}
+.city-option{background:transparent;color:#F8FAFC}.city-option:hover{background:#334155}.city-option small,.city-option>span:last-child,.empty-result{color:#94A3B8}
+.toast{background:#FBBF24;color:#0F172A;font-weight:700}
